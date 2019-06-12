@@ -1,0 +1,240 @@
+body ,html {
+    font-size:100%;
+    font-family:"Open Sans";
+}
+
+header {
+    background-color:#57b6b2;
+    height:77px;
+}
+
+li {
+    list-style-type:none;
+}
+
+a {
+    color:Black;
+}
+
+/*      COMPANY NAV      */
+
+header {
+    display:flex;
+}
+
+header #Company-logo {
+    align-self:center;
+    margin:auto;
+    width: 239px; 
+    height: 32px;
+}
+
+#header-p {
+    font-size:170%;;
+}
+
+
+/*      NAV      */
+
+nav {
+    display: flex;
+    justify-content:center;
+    background-color:#efac2a;
+    height:47px;
+
+}
+
+nav ul {
+    display:flex;
+    align-items: center;
+}
+
+.nav-icons {
+    width:24px;
+    height:24px;}
+
+#web-nav a {
+    color:#ffff;
+    font-size:100%;
+
+}
+
+#message-header {
+    color:#953061;
+}
+
+/*  JUMBOTRON   */
+
+.big-img {
+    height: 400px;
+}
+
+.purple-circle-thing {
+    width:500px;
+    height:387px;
+}
+
+/*      PROMISES      */
+
+#promises {
+    color:#efac2a;
+    font-size:54px;
+    font-weight: bold;
+}
+
+#promises-p {
+    font-size:21px;
+}
+.circles {
+    background-color: #57b6b2;
+    width:280px;
+    height:280px;
+}
+
+.ourPromises {
+    color:white;
+}
+
+/*      BED_BRANDS      */
+
+#bed-brands {
+    background-color:#f1f1f2;
+    font-size:400%;
+}
+
+#bed-header {
+    font-size:100%;
+    color:#57b6b2;
+}
+
+#bed-p {
+    font-size:30%;
+}
+
+.bed-img {
+    width:100%;
+    height:auto;
+}
+
+#bed-brands ul {
+    display:flex;
+    align-items: center;
+}
+
+.nav-icons {
+    width:24px;
+    height:24px;}
+
+#web-nav a {
+    color:#ffff;
+    font-size:100%;
+
+}
+
+/*      JOIN OUR TEAM (ORANGE SECTION)      */
+
+#JoinOurTeam {
+    background-color:#efac2a;
+}
+
+#team-header {
+    font-size:350%;
+    color:#ffff;
+}
+
+div img {
+    width: 335px;
+    height: 30px;
+}
+
+#team-p {
+    font-size:150%;
+}
+
+#DreamJob {
+    background-color:#8d2061;
+    color:#ffff;
+    width:450px;
+    font-size:21px;
+    padding:10px;
+    border-radius:20%;
+}
+
+#lama-pic {
+    width: 196px; 
+    height: 73px;
+}
+
+/*      FOOTER      */
+
+.footer {
+    background-color:#57b6b2;
+}
+
+#footer {
+    display:flex;
+}
+
+#Company-logo-footer {
+    width: 239px; 
+    height: 32px;
+}
+
+
+ @media only screen and (max-width: 768px) {
+    body,html {
+        font-size:100%;
+    }
+
+    nav {
+        height:20px;
+    }
+
+    #header-p {
+        font-size:140%;
+    }
+
+    #message-header {
+        font-size:200%;
+    }
+
+    #bed-brands {
+        font-size:200%;
+    }
+
+    #bed-p {
+        font-size:60%;
+    }
+
+    #footer {
+        flex-direction: column;
+    }
+  
+    #DreamJob {
+        width:270px;
+    }
+
+    #team-header {
+        font-size:300%;
+    }
+
+    #team-p {
+        font-size:120%;
+    }
+
+    #bed-brands ul {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 576px) {
+      
+    .jumbo-img {
+        heighT: 325px;
+        
+    }
+  
+}
